@@ -1,0 +1,88 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+ body {
+     font-size: 1.8ems;
+ }
+ .clear {
+     clear: both;
+ }
+ #mainContent {
+     height: 875px;
+     width: 945px;
+     margin: 0 auto;
+     position: relative;
+     padding: 140px 70px 0px 100px;
+ }
+ #description {
+     width: 920px;
+     height: 355px;
+     border: 2px solid #653221;
+    /* Background Gradient for Complementary Colors */
+    background-color: #A9BA9D;
+    /* For WebKit (Safari, Chrome, etc) */
+    background: #A9BA9D -webkit-gradient(linear, left top, left bottom, from(#fff), to(#A9BA9D)) no-repeat;
+    /* Mozilla,Firefox/Gecko */
+    background: #A9BA9D -moz-linear-gradient(top, #fff, ##A9BA9D) no-repeat;
+    /* IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fff, endColorstr=##A9BA9D) no-repeat;
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=##A9BA9D, endColorstr=##A9BA9D)" no-repeat;
+}
+ #tabbedMenu {
+     margin: 0;
+     padding: 0px 0px;
+     width: 100%;
+     list-style: none;
+ }
+ #tabbedMenu li {
+     display: inline;
+     background: #4F704D;
+     border: 1px solid #653221;
+     border-bottom: 0;
+     margin-right: 5px;
+     padding: 4px 4px 2px 4px;
+     color: #ededed;
+     font-weight: bold;  
+ }
+ #tabbedMenu a {
+     color: #fff;
+     text-decoration: none;
+     letter-spacing:1.3px; 
+ }
+ #tabbedMenu li a:hover {
+     color: #fff;
+ }
+ #tabbedMenu li.current {
+     background: #8F9779;
+     padding-bottom: 4px;
+ }
+ p {
+     line-height: 2.1em;
+     margin: 20px 0px 0 20px;
+ }
+img {
+    border: solid #ededed 5px;
+}
+ #pic1,
+ #pic3 {
+     float: right;
+     margin-left: 12px;
+ }
+ #pic2 {
+     float: left;
+     margin-right: 12px;
+ }
+ p#tab2 {
+     float: right;
+ }
+p#tab1,
+#tab3, p#tab2 {
+    margin: 20px; 
+    
+} 
+ p#tab1,
+ #tab3 {
+     float: left;
+ }
